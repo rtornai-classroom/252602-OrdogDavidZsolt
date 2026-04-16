@@ -7,23 +7,23 @@
 enum eVertexArrayObject {
     VAO_CONTROL_GEOMETRY,
     VAO_BEZIER_CURVE,
-    VAO_COUNT
+    VAOCount
 };
 
 enum eVertexBufferObject {
     VBO_CONTROL_POINTS,
     VBO_CURVE_POINTS,
-    VBO_COUNT
+    BOCount
 };
 
 enum eProgram {
     SHADER_MAIN,
-    PROGRAM_COUNT
+    ProgramCount
 };
 
 enum eTexture {
     TEX_NONE,
-    TEXTURE_COUNT
+    TextureCount
 };
 
 #include <common.cpp>
